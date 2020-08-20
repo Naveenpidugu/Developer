@@ -1,0 +1,161 @@
+body{
+    color: #40514e;
+    margin: 0;
+    text-align: center;
+    font-family: sans-serif;
+    
+
+}
+
+h1{
+    color: darkcyan;
+    /* The color CSS property sets the foreground color value of an element's text and text decorations*/
+    font-size: 5.635rem;
+    margin: 50 auto 0 auto;
+    line-height: 1;
+    /* The line-height CSS property sets the height of a line box.…It's commonly used to set the distance between lines of text. */
+    font-family: 'Sacramento', cursive;
+    
+   
+}
+
+h2{
+    color: darkcyan;
+    font-family: 'Merriweather', serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding: 10px;
+    
+}
+
+h3{
+    color: 11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a{
+    color: green;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+.top-container{
+    background-color:lightskyblue;
+        position: relative;
+        padding-top: 100px;
+
+    }
+.middle-container{
+
+    margin: 100px 0;
+}   
+
+.bottom-container{
+
+    background-color: lightgreen;
+    font-family: 'Merriweather', serif;
+    padding: 50px 0 20px;
+
+
+}
+
+p { 
+    line-height: 2;
+}
+
+hr {
+    border: dotted lightgrey 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.copyright{
+    color: green;
+    font-size: 0.75rem;
+    padding: 20px 0;
+
+}
+.skill-row{
+    width: 50%;
+    margin: 100 auto 100 auto;
+    text-align: left;
+    
+    
+}
+.code-img{
+    width: 25%;
+    float: left;
+    margin: 30px;
+}
+.angular-img{
+    width: 25%;
+    float: right;
+    margin: 30px;
+}
+
+
+.pro{
+    text-decoration-line: underline;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+    
+}
+
+.contact-message{
+    width: 40%;
+    margin: 40 auto 60;
+  line-height: 2;  
+}
+
+.top-cloud{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 20px;
+    bottom: 300px;
+    }
+/*
+.code-skill-description{
+    clear: left;
+}
+
+.code1-skill-description{
+    clear: right;
+}
+*/
+
+.myButton {
+	box-shadow: 0px 0px 0px 2px #f0f7fa;
+	background:linear-gradient(to bottom, #33bdef 5%, #019ad2 100%);
+	background-color:#33bdef;
+	border-radius:8px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #5b6178;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #019ad2 5%, #33bdef 100%);
+	background-color:#019ad2;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
